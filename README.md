@@ -5,6 +5,8 @@
 
 ### [2.字符串](https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html)
 
+* [344.反转字符串](./docs/344.反转字符串.md)
+
 ### [3.链表](https://programmercarl.com/%E9%93%BE%E8%A1%A8%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html#%E9%93%BE%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B)
 * [203.移除列表元素](./docs/203.移除链表元素.md)
 * [707.设计链表](./docs/707.设计链表.md)
