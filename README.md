@@ -6,16 +6,24 @@
 ### [2.字符串](https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html)
 
 ### [3.链表](https://programmercarl.com/%E9%93%BE%E8%A1%A8%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html#%E9%93%BE%E8%A1%A8%E7%9A%84%E7%B1%BB%E5%9E%8B)
-* [203.移除列表元素](./docs/203.%20移除链表元素.md)
-* [707.设计链表](./docs/707.%20设计链表.md)
-* [206.反转链表](./docs/206.%20反转链表.md)
-* [24.两两交换链表中的节点](./docs/24.%20两两交换链表中的节点.md)
+* [203.移除列表元素](./docs/203.移除链表元素.md)
+* [707.设计链表](./docs/707.设计链表.md)
+* [206.反转链表](./docs/206.反转链表.md)
+* [24.两两交换链表中的节点](./docs/24.两两交换链表中的节点.md)
 
 ### [4.哈希表](https://programmercarl.com/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
 
-### [5.栈和队列](https://programmercarl.com/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
+* [242.有效的字母异位词](./docs/242.有效的字母异位词.md)
+* [349.两个数组的交集](./docs/349.两个数组的交集.md)
+* [1.两数之和](./docs/1.两数之和.md)
+* [383.赎金信](./docs/383.赎金信.md)
 
+### [5.栈和队列](https://programmercarl.com/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
+* [232.用栈实现队列](./docs/232.用栈实现队列.md)
+* [225.用队列实现栈](./docs/225.用队列实现栈.md)
 ### [6.二叉树](https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
+* [二叉树的前序/中序/后序/层序遍历](./docs/二叉树的遍历.md)
+
 
 ## 算法类
 
