@@ -25,7 +25,7 @@
 * [225.用队列实现栈](./docs/225.用队列实现栈.md)
 ### [6.二叉树](https://programmercarl.com/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
 * [二叉树的前序/中序/后序/层序遍历](./docs/二叉树的遍历.md)
-
+* [101.对称二叉树](./docs/101.对称二叉树.md)
 
 ## 算法类
 
@@ -52,4 +52,5 @@
 
 # [leetcode 热题100](https://leetcode.cn/studyplan/top-100-liked/)
 
+#### 哈希
 * [49.字母异位词分组](./docs/49.字母异位词分组.md)
