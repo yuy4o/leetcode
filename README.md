@@ -3,6 +3,10 @@
 ## 数据结构类
 ### [1.数组](https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
 
+* [704.二分查找](./docs/704.二分查找.md)
+* [27.移除元素](./docs/27.移除元素.md)
+* [977.有序数组的平方](./docs/977.有序数组的平方.md)
+
 ### [2.字符串](https://programmercarl.com/0344.%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html)
 
 * [344.反转字符串](./docs/344.反转字符串.md)
