@@ -213,3 +213,79 @@
 
 #### 11.09
 [125.验证回文串](./docs/125.验证回文串.md)
+
+#### 02.01
+哈希-49.字母异位词分组
+```
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> res;
+        unordered_map<string,vector<string>> umap;
+
+        for (auto i : strs){
+            string key = i;
+            sort(key.begin(), key.end());
+            umap[key].push_back(i);
+        }
+
+        for (auto it = umap.begin(); it!= umap.end(); it++)
+            res.push_back(it->second);
+        return res;
+    }
+};
+```
+哈希-128. 最长连续序列
+```
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        if (nums.empty()) return 0;
+        if (nums.size()==1) return 1;
+        sort(nums.begin(), nums.end());
+        nums.erase(unique(nums.begin(),nums.end()), nums.end());
+        // 去重排序
+        int res = 1;
+        int pre = nums[0];
+        vector<int> ress;
+        for (int i = 1; i < nums.size(); i++){
+            if (nums[i] - pre == 1) res++;
+            else {
+                ress.push_back(res);
+                res = 1;
+            }
+            pre = nums[i];
+        }
+        int fres;
+        if (ress.empty()) fres = res;
+        else {
+            ress.push_back(res);
+            auto it = max_element(ress.begin(),ress.end());
+            fres = *it;
+        }
+        return fres;
+    }
+};
+```
+
+## C++刷题小抄
+
+unordered_set：
+```
+uset.insert(i); //uset插入
+for (auto it = uset.begin(); it != uset.end(); it++) cout << *it << " "; //uset遍历
+```
+vector中求最大元素：
+```
+auto it = max_element(vec.begin(), vec.end());
+cout << *it;
+```
+判断vector是否为空:
+```
+bool vec.empty()
+```
+vector 去重：
+```
+sort(vec.begin(), vec.end());
+vec.erase(unique(vec.begin(), vec.end()), vec.end());
+```
