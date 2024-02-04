@@ -313,6 +313,47 @@ public:
     }
 };
 ```
+双指针-283.移动零
+```cpp
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int cnt = 0;
+        for (int i = 0; i < nums.size(); i++){
+            if (!nums[i]){
+                nums.erase(nums.begin()+i);
+                i--;// 删完一个0，数组长度减1，索引相应减1
+                cnt++;
+            }
+        }
+        while(cnt--){
+            nums.push_back(0);
+        }
+        return;
+    }
+};
+
+// 交换
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        for (int i = 0; i < nums.size(); i++){
+            if (nums[i]!=0) continue;
+            else{
+                int offset = 1;
+                int j = i + offset;
+                while(j < nums.size() && nums[j]==0){
+                    offset++;
+                    j = i+offset;//i+2
+                }
+                if (j < nums.size()) 
+                    swap(nums[i], nums[j]);//1 0 0 0 0 0
+            }
+        }
+        return;
+    }
+};
+```
 
 ## C++刷题小抄
 
@@ -326,6 +367,14 @@ vector中求最大元素：
 auto it = max_element(vec.begin(), vec.end());
 cout << *it;
 ```
+
+vector 首元素/末元素的引用
+```cpp
+vector<int> s = {1,2,4,3};
+s.front() = 999;//等于s[0]
+s.back() = 888;//等于s[s.size()-1]
+```
+
 判断vector是否为空:
 ```cpp
 bool vec.empty()
@@ -342,4 +391,10 @@ vector<int> s = {1,2,4,3};
 auto begin = s.begin()+1; 
 auto end = s.end()-1; 
 vector<int> s2(begin, end);//此处不是等号，是构造函数
+```
+
+vector 删除指定的元素
+```cpp
+vector<int> s = {1,2,4,3};
+s.erase(s.begin() + 0);//删除第一个元素1
 ```
