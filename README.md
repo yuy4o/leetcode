@@ -216,27 +216,28 @@
 
 #### 02.01
 哈希-49.字母异位词分组
-```
+```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         vector<vector<string>> res;
-        unordered_map<string,vector<string>> umap;
+        unordered_map<string, vector<string>> umap;
 
-        for (auto i : strs){
-            string key = i;
+        for (string s:strs){
+            string key = s;
             sort(key.begin(), key.end());
-            umap[key].push_back(i);
+            umap[key].push_back(s);
         }
 
-        for (auto it = umap.begin(); it!= umap.end(); it++)
+        for (auto it=umap.begin(); it != umap.end(); it++){
             res.push_back(it->second);
+        }
         return res;
     }
 };
 ```
 哈希-128. 最长连续序列
-```
+```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -268,24 +269,77 @@ public:
 };
 ```
 
+#### 02.04
+哈希-1.两数之和
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> umap;
+        for (int i = 0; i < nums.size(); i++){
+            auto it = umap.find(target - nums[i]);
+            if (it != umap.end()) return {i, it->second};
+            else umap.insert(pair<int,int>(nums[i], i));
+        }
+        return {};
+    }
+};
+```
+哈希-49.字母异位词分组
+
+哈希-128. 最长连续序列
+```cpp
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        //最好先排序+去重
+        sort(nums.begin(), nums.end());
+        nums.erase(unique(nums.begin(), nums.end()), nums.end());
+        vector<int> ress;
+        if (nums.empty()) return 0;
+        if (nums.size()==1) return 1;
+
+        int res = 1;
+        int num = nums[0];
+        vector<int> nums2(nums.begin()+1, nums.end());
+        for (int i:nums2){
+            if (i-num == 1) res++;
+            else res = 1;
+            ress.push_back(res);
+            num = i;
+        }
+        auto it = max_element(ress.begin(), ress.end());
+        return *it;
+    }
+};
+```
+
 ## C++刷题小抄
 
 unordered_set：
-```
+```cpp
 uset.insert(i); //uset插入
 for (auto it = uset.begin(); it != uset.end(); it++) cout << *it << " "; //uset遍历
 ```
 vector中求最大元素：
-```
+```cpp
 auto it = max_element(vec.begin(), vec.end());
 cout << *it;
 ```
 判断vector是否为空:
-```
+```cpp
 bool vec.empty()
 ```
 vector 去重：
-```
+```cpp
 sort(vec.begin(), vec.end());
 vec.erase(unique(vec.begin(), vec.end()), vec.end());
+```
+
+通过迭代器实现vector 切片：
+```cpp
+vector<int> s = {1,2,4,3};
+auto begin = s.begin()+1; 
+auto end = s.end()-1; 
+vector<int> s2(begin, end);//此处不是等号，是构造函数
 ```
