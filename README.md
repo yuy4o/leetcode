@@ -398,3 +398,10 @@ vector 删除指定的元素
 vector<int> s = {1,2,4,3};
 s.erase(s.begin() + 0);//删除第一个元素1
 ```
+
+vector和array按固定长度5初始化
+```cpp
+vector<int> s(5, 0); 等效于 vector<int> s(5); //正确vector<int> s= {1,2,3,4,5}; 错误写法vector<int> s(5) = {1,2,3,4,5};
+int s[5] = {1,2,3,4,5};
+int s[5] = {0};
+```
