@@ -355,6 +355,49 @@ public:
 };
 ```
 
+#### 02.12
+滑动窗口-438.找到字符串中所有字母异位词
+```cpp
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        if (s.size() < p.size()) return {};
+        vector<int> res;
+        int shash[26] = {0}; // 或 std::vector<int> pcnt(26), scnt(26);
+        int phash[26] = {0};
+        for (int i = 0; i < p.size(); i++){
+            shash[s[i]-'a']++;
+            phash[p[i]-'a']++;
+        }
+        if (equal(begin(shash), end(shash), begin(phash))) res.push_back(0);
+        for (int i = 0; i < s.size()-p.size();i++){
+            shash[s[i]-'a']--;
+            shash[s[i+p.size()]-'a']++;
+            if (equal(begin(shash), end(shash), begin(phash))) res.push_back(i+1);
+        }
+        return res;
+    }
+};
+```
+超时做法
+```cpp
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        vector<int> res;
+        if (s.size() < p.size()) return res;
+        sort(p.begin(), p.end());
+        int start = 0;
+        for (;start < s.size();start++){
+            string subs = s.substr(start,p.size());
+            sort(subs.begin(), subs.end());
+            if (p==subs) res.push_back(start);
+        }
+        return res;
+    }
+};
+```
+
 ## C++刷题小抄
 
 unordered_set：
@@ -406,9 +449,15 @@ int s[5] = {1,2,3,4,5};
 int s[5] = {0};
 ```
 
-
 string 中根据索引选出子串
 ```cpp
 string s = "Hello, World!";
 string ss = s.substr(startIndex, length);
+```
+
+数组不能直接用数组名比较大小
+```cpp
+//数组名表示指向数组首元素的指针 a==b恒为0
+int a[3] = {0}, b[3] = {0};
+bool x = equal(begin(a), end(a), begin(b));
 ```
