@@ -405,3 +405,10 @@ vector<int> s(5, 0); 等效于 vector<int> s(5); //正确vector<int> s= {1,2,3,4
 int s[5] = {1,2,3,4,5};
 int s[5] = {0};
 ```
+
+
+string 中根据索引选出子串
+```cpp
+string s = "Hello, World!";
+string ss = s.substr(startIndex, length);
+```
