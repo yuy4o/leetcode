@@ -398,6 +398,33 @@ public:
 };
 ```
 
+#### 02.13
+链表-2.两数相加
+```cpp
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode*head = nullptr, *tail = nullptr;
+        int quo=0, num1, num2, sum;
+        while(l1||l2){
+            num1=l1?l1->val:0;
+            num2=l2?l2->val:0;
+            sum=num1+num2+quo;
+            quo=sum/10;
+            if(!head)head=tail=new ListNode(sum%10);
+            else{
+                tail->next=new ListNode(sum%10);
+                tail=tail->next;
+            }
+            if(l1)l1=l1->next;
+            if(l2)l2=l2->next;
+        }
+        if(quo) tail->next = new ListNode(quo);
+        return head;
+    }
+};
+```
+
 ## C++刷题小抄
 
 unordered_set：
