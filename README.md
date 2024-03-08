@@ -531,7 +531,10 @@ bool x = equal(begin(a), end(a), begin(b));
 
 [刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
 
-[Cpp题解](https://github.com/pezy/LeetCode)
+## 题解
+[Blind75Cpp题解](https://github.com/ldtech007/leetcode) [在线文档](https://docs.qq.com/sheet/DWGJZdmZSQUJvWWp3)
+
+[网友自己Cpp题解](https://github.com/pezy/LeetCode)
 
 ## 资源使用路线
 原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
