@@ -508,3 +508,20 @@ bool x = equal(begin(a), end(a), begin(b));
 [别人总结好的力扣合集](https://github.com/stevenli91748/Data-Structure-and-Algorithmic)
 
 [刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
+
+## 资源使用路线
+原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
+
+按数据结构算法分类+简洁+Cpp：[LeetCode 101](https://github.com/changgyhub/leetcode_101)
+
+按难度分类：[力扣加加](https://github.com/azl397985856/leetcode)
+
+按数据结构算法分类+视频讲解：[代码随想录](https://github.com/youngyangyang04/leetcode-master)
+
+---
+
+按数据结构算法分类+英文+简洁：[LeetCode题解bysoulmachine](https://github.com/soulmachine/leetcode)
+
+有点花哨重在理解技巧：[labuladong](https://github.com/labuladong/fucking-algorithm)
+
+Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [2.算法竞赛模板库by灵茶山艾府](https://github.com/EndlessCheng/codeforces-go)
