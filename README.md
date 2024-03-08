@@ -476,6 +476,12 @@ int s[5] = {1,2,3,4,5};
 int s[5] = {0};
 ```
 
+求原生数组的长度
+```cpp
+int s[5] = {1,2,3,4,5};
+int length = sizeof(s) / sizeof(s[0]);
+```
+
 string 中根据索引选出子串
 ```cpp
 string s = "Hello, World!";
