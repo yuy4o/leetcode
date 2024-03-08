@@ -488,3 +488,8 @@ string ss = s.substr(startIndex, length);
 int a[3] = {0}, b[3] = {0};
 bool x = equal(begin(a), end(a), begin(b));
 ```
+
+## 有用网址
+[别人总结好的力扣合集](https://github.com/stevenli91748/Data-Structure-and-Algorithmic)
+
+[刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
