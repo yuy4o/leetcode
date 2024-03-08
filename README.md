@@ -532,23 +532,25 @@ bool x = equal(begin(a), end(a), begin(b));
 [刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
 
 ## 题解
+[题库全面（力扣，剑指offer，面试金典）纯题解](https://github.com/doocs/leetcode) [`web`](https://doocs.github.io/leetcode)
+
 [Blind75Cpp题解](https://github.com/ldtech007/leetcode) [在线文档](https://docs.qq.com/sheet/DWGJZdmZSQUJvWWp3)
 
 [网友自己Cpp题解](https://github.com/pezy/LeetCode)
 
 ## 资源使用路线
-原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
+原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) [`web`](https://www.hello-algo.com/) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
 
 按数据结构算法分类+简洁+Cpp：[LeetCode 101](https://github.com/changgyhub/leetcode_101)
 
-按难度分类：[力扣加加](https://github.com/azl397985856/leetcode)
+按难度分类：[力扣加加](https://github.com/azl397985856/leetcode) [`web`](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
-按数据结构算法分类+视频讲解：[代码随想录](https://github.com/youngyangyang04/leetcode-master)
+按数据结构算法分类+视频讲解：[代码随想录](https://github.com/youngyangyang04/leetcode-master) [`web`](https://programmercarl.com/)
 
 ---
 
-按数据结构算法分类+英文+简洁：[LeetCode题解bysoulmachine](https://github.com/soulmachine/leetcode)
+按数据结构算法分类+英文+简洁：[LeetCode题解bysoulmachine](https://github.com/soulmachine/leetcode) [`web`](https://algorithm-essentials.soulmachine.me/)
 
-有点花哨重在理解技巧：[labuladong](https://github.com/labuladong/fucking-algorithm)
+有点花哨重在理解技巧：[labuladong](https://github.com/labuladong/fucking-algorithm) [`web`](https://labuladong.online/algo/)
 
-Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [2.算法竞赛模板库by灵茶山艾府](https://github.com/EndlessCheng/codeforces-go)
+Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [`web`](https://books.halfrost.com/leetcode/) [2.算法竞赛模板库by灵茶山艾府](https://github.com/EndlessCheng/codeforces-go)
