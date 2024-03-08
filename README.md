@@ -538,6 +538,11 @@ bool x = equal(begin(a), end(a), begin(b));
 
 [网友自己Cpp题解](https://github.com/pezy/LeetCode)
 
+## 视频
+[郭郭wg](https://space.bilibili.com/479038960) [`刷题顺序二叉树/搜索/动态规划`](https://www.bilibili.com/read/cv9904414/?spm_id_from=333.999.0.0)
+
+[itdef](https://space.bilibili.com/18508846)
+
 ## 资源使用路线
 原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) [`web`](https://www.hello-algo.com/) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
 
