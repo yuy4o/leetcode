@@ -532,6 +532,8 @@ bool x = equal(begin(a), end(a), begin(b));
 [刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
 
 ## 题解
+[Datawhale算法笔记面试100题](https://github.com/datawhalechina/leetcode-notes) [`web`](https://datawhalechina.github.io/leetcode-notes/#/)
+
 [题库全面（力扣，剑指offer，面试金典）纯题解](https://github.com/doocs/leetcode) [`web`](https://doocs.github.io/leetcode)
 
 [Blind75Cpp题解](https://github.com/ldtech007/leetcode) [在线文档](https://docs.qq.com/sheet/DWGJZdmZSQUJvWWp3)
