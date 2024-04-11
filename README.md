@@ -534,6 +534,8 @@ bool x = equal(begin(a), end(a), begin(b));
 ## 题解
 [Datawhale算法笔记面试100题](https://github.com/datawhalechina/leetcode-notes) [`web`](https://datawhalechina.github.io/leetcode-notes/#/)
 
+[算法通关手册Python](https://github.com/itcharge/LeetCode-Py) [`web`](https://algo.itcharge.cn/)
+
 [题库全面（力扣，剑指offer，面试金典）纯题解](https://github.com/doocs/leetcode) [`web`](https://doocs.github.io/leetcode)
 
 [Blind75Cpp题解](https://github.com/ldtech007/leetcode) [在线文档](https://docs.qq.com/sheet/DWGJZdmZSQUJvWWp3)
