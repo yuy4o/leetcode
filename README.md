@@ -185,7 +185,7 @@
 * [125.验证回文串](./docs/125.验证回文串.md)
 
 ## 刷题记录（11.06-）
-加*表示做得不好，下次重练
+加*表示做得不好，需要重练
 
 #### 11.06
 *[136.只出现一次的数字](./docs/136.只出现一次的数字.md)
@@ -505,6 +505,13 @@ bool x = equal(begin(a), end(a), begin(b));
 ```
 
 ## 刷题方式
+
+[力扣刷题全流程](https://github.com/stevenli91748/Data-Structure-and-Algorithmic)
+
+[[力扣刷题攻略] Re：从零开始的力扣刷题生活](https://leetcode.cn/circle/discuss/E3yavq/)
+
+[力扣刷题最强指南（版本1.0）](https://leetcode.cn/circle/discuss/wGp7Y9/)
+
 第一阶段按照 tag 去刷， 第二阶段则要一题多解，多题同解，挖掘题目背后的东西
 
 去年找互联网的工作，刷了两遍LeetCode，只做了前200道。面试过程中碰到的算法题基本都被秒杀了。最后拿了9个offer。我是按Tag来刷的。链表，二叉树，回溯，深度宽度优先遍历，图，贪心，动规，数组，哈希表……每个tag由easy到hard，每道题先自己思考，不会的参考了一个开源的解答或者参考Discuss或者博客。开始的时候自己独立思考的时间比较长，后来没了耐心，不会的题目就马上看解答了。一般题目解法有多种，这时候最好尝试一下其他的做法，至少要知道思路。比如有关图的题目就会有DFS和BFS两种解法。Discuss里一般都会有高质量的解答。关键是每道题都要弄明白。一开始用IDE，跑出正确结果，再在线默写代码。后来写的多了，直接在线写代码了。这是一个自然的过程，做的多了就有“手感”了。总结一下，按tag由易到难，每道题弄清楚，知道其他的解法，这是核心！搞定了核心，
@@ -525,13 +532,41 @@ bool x = equal(begin(a), end(a), begin(b));
 
 第三遍：提升刷题速度，拿出一个题，就能够知道其考察重点，解题方法，在短时间内写出解答。定期总结：按照题目类型进行总结：针对一类问题，总结有哪些解题方法，哪种方法是最优的，为什么。总结重点：有些题你刷了好多遍都还是不会，那就要重点关注，多思考解决方法，不断练习强结合图解刷题：有些人认为刷题比较枯燥，比较抽象。那你可以结合动画图解刷题。
 
+## Roadmap
 
-## 有用网址
-[别人总结好的力扣合集](https://github.com/stevenli91748/Data-Structure-and-Algorithmic)
+1
 
-[刷leetcode（力扣）不知道从哪里刷起？？代码随想录，你值得拥有](https://zhuanlan.zhihu.com/p/339849416)
+原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) [`web`](https://www.hello-algo.com/) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
+
+按数据结构算法分类+简洁+Cpp：[LeetCode 101](https://github.com/changgyhub/leetcode_101)
+
+按难度分类：[力扣加加](https://github.com/azl397985856/leetcode) [`web`](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+
+按数据结构算法分类+视频讲解：[代码随想录](https://github.com/youngyangyang04/leetcode-master) [`web`](https://programmercarl.com/)，[刷题方法](https://zhuanlan.zhihu.com/p/339849416)
+
+[动画可视化数据结构和算法](https://visualgo.net/zh)
+
+[算法珠玑](https://algorithm-essentials.soulmachine.me/)
+
+2
+
+按数据结构算法分类+英文+简洁：[LeetCode题解bysoulmachine](https://github.com/soulmachine/leetcode) [`web`](https://algorithm-essentials.soulmachine.me/)
+
+有点花哨重在理解技巧：[labuladong](https://github.com/labuladong/fucking-algorithm) [`web`](https://labuladong.online/algo/)
+
+Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [`web`](https://books.halfrost.com/leetcode/) [2.算法竞赛模板库by灵茶山艾府](https://github.com/EndlessCheng/codeforces-go)
+
+## 视频
+[郭郭wg](https://space.bilibili.com/479038960) [`刷题顺序二叉树/搜索/动态规划`](https://www.bilibili.com/read/cv9904414/?spm_id_from=333.999.0.0)
+
+[itdef](https://space.bilibili.com/18508846)
+
+[阿婧不会写代码](https://space.bilibili.com/1632616419)
 
 ## 题解
+
+1
+
 [Datawhale算法笔记面试100题](https://github.com/datawhalechina/leetcode-notes) [`web`](https://datawhalechina.github.io/leetcode-notes/#/)
 
 [算法通关手册Python](https://github.com/itcharge/LeetCode-Py) [`web`](https://algo.itcharge.cn/)
@@ -540,26 +575,61 @@ bool x = equal(begin(a), end(a), begin(b));
 
 [Blind75Cpp题解](https://github.com/ldtech007/leetcode) [在线文档](https://docs.qq.com/sheet/DWGJZdmZSQUJvWWp3)
 
-[网友自己Cpp题解](https://github.com/pezy/LeetCode)
+[LeetCode solutions in C++ 11 and Python3](https://github.com/pezy/LeetCode)
 
-## 视频
-[郭郭wg](https://space.bilibili.com/479038960) [`刷题顺序二叉树/搜索/动态规划`](https://www.bilibili.com/read/cv9904414/?spm_id_from=333.999.0.0)
 
-[itdef](https://space.bilibili.com/18508846)
+2
 
-## 资源使用路线
-原理讲解+简洁：[hello-algo](https://github.com/krahets/hello-algo) [`web`](https://www.hello-algo.com/) 配套习题：[图解算法数据结构](https://github.com/krahets/LeetCode-Book)
+[用户刷题](https://juejin.cn/user/4128014673123100/posts)
 
-按数据结构算法分类+简洁+Cpp：[LeetCode 101](https://github.com/changgyhub/leetcode_101)
+## 平台题单
 
-按难度分类：[力扣加加](https://github.com/azl397985856/leetcode) [`web`](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+[牛客-剑指offer](https://www.nowcoder.com/exam/oj/ta?page=1&tpId=13&type=13)
 
-按数据结构算法分类+视频讲解：[代码随想录](https://github.com/youngyangyang04/leetcode-master) [`web`](https://programmercarl.com/)
+[牛客竞赛](https://ac.nowcoder.com/)
 
----
+[洛谷](https://www.luogu.com.cn/)
 
-按数据结构算法分类+英文+简洁：[LeetCode题解bysoulmachine](https://github.com/soulmachine/leetcode) [`web`](https://algorithm-essentials.soulmachine.me/)
+[卡码网KamaCoder](https://kamacoder.com/)
 
-有点花哨重在理解技巧：[labuladong](https://github.com/labuladong/fucking-algorithm) [`web`](https://labuladong.online/algo/)
+[AcWing](https://www.acwing.com/)
 
-Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [`web`](https://books.halfrost.com/leetcode/) [2.算法竞赛模板库by灵茶山艾府](https://github.com/EndlessCheng/codeforces-go)
+[力扣竞赛题目](https://huxulm.github.io/lc-rating/)
+
+[rating](https://zerotrac.github.io/leetcode_problem_rating/#/)
+
+[Python tip](https://edu.py2fun.com/learn#/problemset/all/1)
+
+[PTA](https://pintia.cn/problem-sets/)
+
+## ACM
+
+[acm是什么？你准备好去打了吗？](https://blog.csdn.net/qq_52358098/article/details/128335444)
+
+[OI Wiki](https://oi-wiki.org/)
+
+[Codility](https://app.codility.com/programmers/)
+
+[AtCoder](https://atcoder.jp/)
+
+[CodeTop](https://codetop.cc/home)
+
+[USACO Guide](https://usaco.guide/)
+
+[北大OJ <font color="red" face="Times New Roman" size=1>网址换http</font>](https://poj.org/)
+
+[NOI OpenJudge <font color="red" face="Times New Roman" size=1>网址换http</font>](https://noi.openjudge.cn/)
+
+[Virtual Judge](https://vjudge.net/)
+
+[CODEFORCES](https://codeforces.com/)
+
+[COMPETITIVE PROGRAMMING HALL OF FAME](https://cphof.org/)
+
+[Competitions OnAir](https://codingcompetitionsonair.withgoogle.com/)
+
+[ACM-ICPC World Finals 2014](https://static.kattis.com/icpc/wf2014/)
+
+[ACM-ICPC World Finals 2017](https://static.kattis.com/icpc/wf2017/)
+
+[XCPCIO](https://board.xcpcio.com/)
