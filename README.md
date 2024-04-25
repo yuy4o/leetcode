@@ -577,6 +577,7 @@ Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfros
 
 [LeetCode solutions in C++ 11 and Python3](https://github.com/pezy/LeetCode)
 
+[imhuay/algorithm](https://github.com/imhuay/algorithm)
 
 2
 
@@ -612,7 +613,7 @@ Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfros
 
 [AtCoder](https://atcoder.jp/)
 
-[CodeTop](https://codetop.cc/home)
+[CodeTop](https://codetop.cc/home)，[afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 
 [USACO Guide](https://usaco.guide/)
 
