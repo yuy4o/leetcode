@@ -617,9 +617,13 @@ Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfros
 
 [USACO Guide](https://usaco.guide/)
 
-[北大OJ <font color="red" face="Times New Roman" size=1>网址换http</font>](https://poj.org/)
+[北大OJ](http://poj.org/)
 
-[NOI OpenJudge <font color="red" face="Times New Roman" size=1>网址换http</font>](https://noi.openjudge.cn/)
+[NOI OpenJudge](http://noi.openjudge.cn/)
+
+<!-- [北大OJ <font color="red" face="Times New Roman" size=1>网址换http</font>](https://poj.org/)
+
+[NOI OpenJudge <font color="red" face="Times New Roman" size=1>网址换http</font>](https://noi.openjudge.cn/) -->
 
 [Virtual Judge](https://vjudge.net/)
 
@@ -634,3 +638,33 @@ Go版本可参考刷题列表：[1.LeetCode Cookbook](https://github.com/halfros
 [ACM-ICPC World Finals 2017](https://static.kattis.com/icpc/wf2017/)
 
 [XCPCIO](https://board.xcpcio.com/)
+
+## 图片
+
+![lc0](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc0.png)
+
+![lc5](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc5.png)
+
+![lc6](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc6.png)
+
+![lc7](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc7.png)
+
+![lc8](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc8.png)
+
+![lc3](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc3.png)
+
+![lc9](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc9.png)
+
+![lc4](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc4.png)
+
+![lc1](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc1.png)
+
+![lc2](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc2.png)
+
+![lc1w](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc1.webp)
+
+![lc2w](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc2.webp)
+
+![lc3w](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc3.webp)
+
+![lc4w](https://raw.githubusercontent.com/yuy4o/yuy4o/main/figures/lc4.webp)
